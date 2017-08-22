@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="disappearingNinja.css">
+    <title></title>
+  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <body>
+    <div id="main">
+        <ul>
+          <li id="1"><img src="napolean.gif"></li>
+          <li id="2"><img src="napolean.gif"></li>
+          <li id="3"><img src="napolean.gif"></li>
+          <li id="4"><img src="napolean.gif"></li>
+          <li id="5"><img src="napolean.gif"></li>
+          <li id="6"><img src="napolean.gif"></li>
+          <li id="7"><img src="napolean.gif"></li>
+          <li id="8"><img src="napolean.gif"></li>
+        </ul>
+        <button> Vote For Pedro </button>
+    </div>
+  <script>
+  $('#1').click(function(){
+    $('#1').hide();
+  });
+  $('#2').click(function(){
+    $('#2').hide();
+  });
+  $('#3').click(function(){
+    $('#3').hide();
+  });
+  $('#4').click(function(){
+    $('#4').hide();
+  });
+  $('#5').click(function(){
+    $('#5').hide();
+  });
+  $('#6').click(function(){
+    $('#6').hide();
+  });
+  $('#7').click(function(){
+    $('#7').hide();
+  });
+  $('#8').click(function(){
+    $('#8').hide();
+  });
+  $('button').click(function(){
+    $('li').show("slow");
+});
+  </script>
+  </body>
+</html>

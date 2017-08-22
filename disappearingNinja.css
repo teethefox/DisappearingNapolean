@@ -1,0 +1,19 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+#main li{
+  display:inline;
+  width:800px;
+
+}
+#main img{
+  width:350px;
+}
+button{
+  width:300px;
+  height:60px;
+  background-color: darkred;
+  color:white;
+  font-size: 1.3em;
+}
